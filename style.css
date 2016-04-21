@@ -1,0 +1,317 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+  font-family: 'Open Sans','Helvetica','Times New Roman', sans-serif;
+}
+.clearfix {
+  clear: both;
+}
+a, a:visited{
+  color: #ffffff;
+  text-decoration: none;
+}
+header{
+  width: 1500px;
+  height: 878px;
+  background: url(img/header-bg.png) no-repeat;
+  margin: 0 auto;
+}
+.hat{
+  height: 200px;
+}
+.hat .left{
+  float: left;
+  height: 200px;
+  width: 700px;
+}
+.hat .right{
+  float: right;
+  height: 200px;
+  width: 800px;
+}
+.hat .left img{
+  margin-left: 287px;
+  margin-top: 69px;
+}
+.hat .right ul{
+  margin-top: 89px;
+  margin-left: 0;
+  padding-left: 0;
+}
+.hat .right li{
+  list-style: none;
+  display: inline-block;
+  width: 71px;
+  text-align: center;
+  font-size: 18px;
+}
+.hat .right li:hover,
+.hat .right ul li:first-child {
+  border-bottom: 3px solid #1abc9c;
+}
+
+.hat .right .login{
+  font-weight: 600;
+}
+
+.subhat{
+  height: 678px;
+}
+.subhat .left{
+  width: 700px;
+  float: left;
+  height: 678px;
+  text-align: right;
+}
+.subhat .right{
+  width: 760px;
+  float: right;
+  height: 678px;
+  padding-left: 40px;
+}
+.subhat .right h2{
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 1.2;
+}
+.subhat .right p{
+  color: #ffffff;
+  text-align: left;
+  width: 475px;
+  font-weight: 300;
+  font-size: 16px;
+}
+.subhat .right div button{
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  width: 171px;
+  height: 55px;
+  border-radius: 5px;
+  border: 0;
+  margin-right: 16px;
+  margin-top: 66px;
+  background: #3498db;
+  cursor: pointer;
+}
+ .subhat .right div button:hover{
+  opacity: 0.5;
+}
+.subhat .right div :first-child{
+  background: #1abc9c;
+}
+.about {
+  margin: 134px 290px 134px 284px;
+}
+.about .left {
+  width: 655px;
+  font-size: 18px;
+  float: left;
+}
+.about .right {
+  width: 238px;
+  float: right;
+}
+.services {
+  background: #f6f6f6;
+  color: #2c3e50;
+  margin-top: 125px;
+  overflow: hidden;
+}
+.trinity {
+  width: 940px;
+  margin: 73px auto;
+  overflow: hidden;
+}
+.oven,
+.heart,
+.gadj {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  font-size: 14px;
+}
+.presentation{
+  background: url(img/backgrblue.png) no-repeat;
+  height: 605px;
+   color: #fff;
+   text-align: center;
+   padding-top: 62px;
+
+}
+.presentation h2{
+  font-size: 30px;
+  font-weight:300;
+  margin: 0px;
+}
+.presentation p{
+  font-size: 18px;
+  font-weight:300;
+  margin: 5px;
+}
+
+.presentation .laptop {
+  overflow: hidden;
+  padding-top: 100px;
+  width: 940px;
+  margin: 0 auto;
+}
+.presentation .laptop div{
+  float: left;
+}
+.presentation .laptop div:first-child{
+  font-size: 100px;
+  margin-top: 80px;
+}
+.presentation .laptop div:last-child{
+  font-size: 100px;
+  padding-left: 25px;
+  margin-top: 80px;
+}
+.laptop div{
+  margin-left: 15px;
+}
+.feedback {
+  margin: 30px auto;
+  width: 940px;
+}
+.feedback h1 {
+  font-size: 48px;
+  font-weight: 300;
+  text-align: center;
+}
+.feedback li{
+  list-style: none;
+}
+.feedback > div{
+  float: left;
+  width: 50%;
+}
+
+.feedback li div:first-child{
+  width: 145px;
+  float: left;
+  padding-right: 15px;
+}
+.feedback li h2{
+  font-size: 24px;
+  font-weight: 400;
+}
+.contacts{
+  background: #34495e;
+  color: #fff;
+  margin-top: 88px;
+  overflow: hidden;
+}
+.contacts > div{
+  width: 940px;
+  margin: 112px auto;
+  overflow: hidden;
+
+}
+.contacts > div > div{
+  float: left;
+  width: 50%;
+
+}
+.contacts form input{
+  color: #fff;
+  background: #5d6d7e;
+  height: 43px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 0 10px;
+}
+.contacts form input[type=text]{
+  width: 440px;
+}
+.contacts input[type=email], .contacts form input:first-child{
+  width: 200px;
+}
+.contacts form input:first-child{
+  margin-right: 15px;
+}
+.contacts form textarea{
+  width: 440px;
+  height: 130px;
+  color: #fff;
+  background: #5d6d7e;
+  border: none;
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 10px;
+}
+.contacts form input[type=reset],
+.contacts form input[type=button]{
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  width: 171px;
+  height: 55px;
+  border-radius: 5px;
+  border: 0;
+  margin-top: 10px;
+  background: #3498db;
+  cursor: pointer;
+}
+.contacts form input[type=reset]:hover,
+.contacts form input[type=button]:hover{
+  opacity: 0.5;
+}
+.contacts form input[type=button]{
+  margin-left: 100px;
+  background: #1abc9c;
+  margin-right: 15px;
+}
+.contacts h3{
+  font-weight: 300;
+  font-size: 24px;
+  margin-top: 0;
+}
+.contacts p{
+  font-weight: 300;
+  font-size: 14px;
+  opacity: 0.8;
+}
+.contacts i{
+font-size: 24px;
+}
+.contacts address{
+  font-style: normal;
+  font-size: 14px;
+  opacity: 0.8;
+}
+.contacts .name{
+  float: left;
+  width: 50%;
+}
+.contacts small{
+  color: rgb(255, 0, 0);
+  margin: 0;
+  display: none;
+}
+.contacts .error-r input,
+.contacts .error-r textarea,
+.contacts .error-in input,
+.contacts .error-in textarea,
+.contacts .error-min input,
+.contacts .error-min textarea{
+border: 1px solid #ff0000;
+}
+.contacts .error-r .required,
+.contacts .error-in .invalid,
+.contacts .error-min .min{
+  display: inline;
+}
+footer{
+  background: #2c3e50;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  height: 160px;
+  line-height: 160px;
+}
